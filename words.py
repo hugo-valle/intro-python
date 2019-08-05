@@ -10,3 +10,4 @@ file = "http://icarus.cs.weber.edu/~hvalle/hafb/words.txt"
 with urlopen(file) as story:
     for line in story:
         print(line)
+        
