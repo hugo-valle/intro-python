@@ -11,7 +11,7 @@ def fetch_words(filename):
     """
     Count words in url file
     :param filename: url to file
-    :return: nothing
+    :return: a list with the items
     """
     count = 0
     data = []       # empty list
@@ -35,6 +35,10 @@ def print_items(items):
 
 
 def main():
+    """
+    Test function for words library
+    :return: nothing
+    """
     file = "http://icarus.cs.weber.edu/~hvalle/hafb/words.txt"
     words = fetch_words(file)
     print_items(words)
