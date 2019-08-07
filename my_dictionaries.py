@@ -59,6 +59,7 @@ def main():
         'B': [10, 11],
         'C': [11, 12, 13, 14]
     }
+    print("\n\n\n") # 3 empty lines
     pp(isotopes)
     isotopes['H'] += [4, 5, 6, 7]
     pp(isotopes)

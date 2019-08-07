@@ -27,7 +27,7 @@ def main():
     print("s:", s)
     print("t:", t)
     print("t is s:", t is s)
-    t = s[:] # deep copy
+    t = s[:] # "deep" copy
     # or this: t = s.copy()
     # or this: t = list(s)
     print("t is s:", t is s)
