@@ -1,7 +1,7 @@
 """
 Use flight class
 """
-from airtravel import Flight
+from airtravel import Flight, Aircraft
 
 
 def main():
@@ -15,6 +15,11 @@ def main():
     f2 = Flight("AB352")
     print(f2.number(), f2.airline())
     # Could use: Flight.number(f)
+    a1 = Aircraft("G-EUP",
+                  "Airbus A319",
+                  num_rows=22,
+                  num_seats_per_row=6)
+    print(a1.registration(), a1.model())
 
 
 if __name__ == '__main__':
